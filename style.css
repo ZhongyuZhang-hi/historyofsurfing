@@ -1,0 +1,65 @@
+body {
+    background: url('https://images.unsplash.com/photo-1502680390469-be75c86b636f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3VyZmluZ3xlbnwwfHwwfHx8MA%3D%3D') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 0, 70);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+
+h1{
+    font-size: 64px;
+    font-family: Impact, sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-size: 48px;
+    font-family: Impact, sans-serif;
+    text-align: center;
+}
+
+p{
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+}
+
+.profile-section {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    color:blue;
+    font-size: 32px;
+}
+
+.profile {
+    float: left;
+    justify-content: center;
+    width: 250px;
+    text-align: center;
+    position: relative;
+    margin: 50px;
+    padding: 10px;
+}
+
+.profile img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.profile p {
+    position: absolute; /* Position the text absolutely within the .profile container */
+    bottom: 10px; /* Adjust this value to position the text vertically */
+    left: 50%; /* Center the text horizontally */
+    transform: translateX(-50%); /* Fine-tune horizontal centering */
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold; /* Make the text bold */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    padding: 5px 10px; /* Add some padding */
+    border-radius: 5px; /* Rounded corners for the background */
+    margin: 0; /* Remove default margin */
+}
